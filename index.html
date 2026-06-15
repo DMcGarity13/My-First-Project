@@ -26,7 +26,6 @@
                     </p>
                     <button>Start Now </button>
                 </div>
-                
                 <figure>
                     <img src="./HTML Practise Assets/laptop.png" alt="Home page image">
                 </figure>
@@ -37,8 +36,10 @@
     <main>
         <section id="about">
             <h2>About</h2>
-            <div class="section__description">
-                <div class="section__description--wrapper">
+            <div class="row">
+
+                 <div class="section__description">
+                    <div class="section__description--wrapper">
                     <p class="section__description--para">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                     </p>
                     <p class="section__description--para">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
@@ -47,18 +48,22 @@
                 <figure class="about__image--wrapper">
                     <img src="./HTML Practise Assets/about.jpg" alt="About us image">
                 </figure>
+                </div>
             </div>
         </section>
 
         <section id="discord">
             <h2>Discord</h2>
-            <div class="section__description">
-                <figure class="about__image--wrapper">
-                    <img src="./HTML Practise Assets/discord.png" alt="Discord image">
-                </figure>
-                <div  class="section__description--wrapper">
-                    <p class="section__description--para">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua./p>
-                  <p class="section__description--para">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            <div class="row">
+
+                <div class="section__description">
+                    <figure class="about__image--wrapper">
+                        <img src="./HTML Practise Assets/discord.png" alt="Discord image">
+                    </figure>
+                    <div  class="section__description--wrapper">
+                        <p class="section__description--para">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua./p>
+                        <p class="section__description--para">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    </div>
                 </div>
             </div>
         </section>
@@ -67,20 +72,21 @@
             <h2>Contact</h2>
             <form action="">
                 <label>Email</label>
-                <input type="text" placeholder="jane@example.com">
+                <input type="email" placeholder="jane@example.com">
                 <label>Message</label>
-                <textarea placeholder="Your message here..."></textarea>
+                <textarea type="text" placeholder="Cool website, let's connect!"></textarea>
+                <button>Contact Us</button>
             </form>
         </section>
     </main>
 
     <footer>
-        <img src="./assets/FES.svg" alt="">
-        <div>
-           <a href="#about">About</a>
-           <a href="#discord">Discord</a>
-           <a href="#contact">Contact</a>
-           <a href="#courses">Courses</a>
+        <img class="footer__logo" src="./HTML Practise Assets/FES.svg" alt="">
+        <div class="footer__links">
+           <a class="footer__links" href="#about">About</a>
+           <a class="footer__links" href="#discord">Discord</a>
+           <a class="footer__links" href="#contact">Contact</a>
+           <a class="footer__links" href="#courses">Courses</a>
         </div>
         <p>&copy; Frontend Simplified 2026 </p>
     </footer>
